@@ -1,0 +1,80 @@
+-- Ban
+-- Dynamic Title for Ban
+Ban title = "Total respondents for the year "&SELECTEDVALUE(Fact_respondent[Year],"all year")
+
+-- Count the number of respondent for selected group
+Count Year = COUNTA(Fact_respondent[Year])
+
+-- Line Chart
+-- Dynamic Title for Line Chart of answer
+Selected Q6 = "Trend of "&SELECTEDVALUE(Dim_Q6[answer],"All platforms")&" Platform"
+
+-- Percentage of the answer
+% Q6_Year = DIVIDE(COUNTA(Dim_Q6[answer]),COUNTA(Fact_respondent[Year]),0)
+
+-- Bar Chart
+-- Dynamic Title for Bar Chart
+Selected Year = "Top 5 Platforms of "&SELECTEDVALUE(Fact_respondent[Year],"All Year")
+
+-- Occurance matrix
+
+-- Create independent table
+CompareQ6 = SUMMARIZE(Dim_Q6,Dim_Q6[answer])
+
+-- Count the number of occurance
+Q6 Both Products = 
+
+VAR OriginalQ6 = VALUES(Dim_Q6[sid])
+VAR DuplicateQ6 = CALCULATETABLE(VALUES(Dim_Q6[sid]), ALL(Dim_Q6),
+                          TREATAS(VALUES(CompareQ6[answer]),Dim_Q6[answer]))
+
+RETURN
+IF(SELECTEDVALUE(Dim_Q6[answer])=SELECTEDVALUE(CompareQ6[answer]),
+   BLANK(),
+        COUNTROWS(INTERSECT(OriginalQ6,DuplicateQ6)))
+
+-- Calaculate the percentage of occurance
+Percent Occur = DIVIDE([Q6 Both Products],COUNTA(Fact_respondent[Year]))
+
+-- Condition formationg - color scale based on rows
+Row_CF = 
+VAR SummaryTable =
+-- Summaries the table
+CALCULATETABLE(
+    ADDCOLUMNS(
+        SUMMARIZE(
+            Dim_Q6,
+            Fact_respondent[Year], -- row of the matrix
+            Dim_Q6[answer] -- column of matrix
+        ),
+        "Percent", [% Q6_Year]
+    ),
+    -- Add column here for colorscale based on row
+    -- Add row here for colorscale based on column
+    ALLSELECTED(Dim_Q6[answer])
+)
+-- Find the max value
+VAR MaxValue =
+MAXX(
+    SummaryTable,
+    [Percent]
+)
+-- Find the min value
+VAR MinValue =
+MINX(
+    SummaryTable,
+    [Percent]
+)
+VAR Range = MaxValue - MinValue
+VAR Result =
+IF(
+DIVIDE(
+    [% Q6_Year] - MinValue,
+    Range,0
+) < 0,"",
+DIVIDE(
+    [% Q6_Year] - MinValue,
+    Range,0
+))
+RETURN
+Result
