@@ -7,5 +7,7 @@ Link of the dashboard:<br>
 
 <p><img align="left" src="https://github.com/asksawant/kaggle-survey-2022/blob/main/power-bi-dashboard/assets/dashboard-gif.gif" /></p>
 
+<br>
+
 Note: _I have made the dashboard for only 1 question. Though there are totel 43 questions in the dataset. The personal aim of the project is to 
 demonstrate the PowerBI skills._
