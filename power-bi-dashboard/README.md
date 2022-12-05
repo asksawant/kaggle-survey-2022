@@ -2,7 +2,7 @@
 
 Dashboard which allows the audience to analyze and understand the the impact, priorities or concerns of a group of DS/ML practitioners.
 
-Link of the dashboard:
+Link of the dashboard:<br>
 [![portfolio](https://img.shields.io/badge/%F0%9F%94%97-Go%20to%20Dashboard-lightgrey?style=for-the-badge)](https://app.powerbi.com/view?r=eyJrIjoiYzk4MzdkNTItZmUxYS00ZjFmLWFjYjUtMWY5MzQxM2Q0YjU1IiwidCI6IjU3OGQ5ZjNlLTlkMTItNDBiMi1hNjJlLWI3NzdiZGYyNTVhMiJ9)
 
 
