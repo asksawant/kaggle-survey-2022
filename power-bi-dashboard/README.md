@@ -77,5 +77,6 @@ Steps
     - Datatype of data column in the fact table
 - Power BI modelling
     - Checking the relationships between the Fact and Dimension table
+[![Datamodeling](https://github.com/asksawant/kaggle-survey-2022/blob/main/power-bi-dashboard/assets/power-bi-data-modeling.jpg)]
 - Creating the measures for the questions using DAX
-    - [![Dax](https://img.shields.io/badge/%F0%9F%94%97-Go%20to%20DAX_File-lightgrey?style=for-the-badge)](https://github.com/asksawant/kaggle-survey-2022/blob/main/power-bi-dashboard/Dax-measures)
+[![Dax](https://img.shields.io/badge/%F0%9F%94%97-Go%20to%20DAX_File-lightgrey?style=for-the-badge)](https://github.com/asksawant/kaggle-survey-2022/blob/main/power-bi-dashboard/Dax-measures)
