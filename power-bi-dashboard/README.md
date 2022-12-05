@@ -80,3 +80,6 @@ Steps
 ![Datamodeling](https://github.com/asksawant/kaggle-survey-2022/blob/main/power-bi-dashboard/assets/power-bi-data-modeling.jpg)
 - Creating the measures for the questions using DAX<br>
 [![Dax](https://img.shields.io/badge/%F0%9F%94%97-Go%20to%20DAX_File-lightgrey?style=for-the-badge)](https://github.com/asksawant/kaggle-survey-2022/blob/main/power-bi-dashboard/Dax-measures)
+
+## Screenshots
+![Dashboard Screenshot](https://github.com/asksawant/kaggle-survey-2022/blob/main/power-bi-dashboard/assets/Dashboard%20screenshot.jpg)
