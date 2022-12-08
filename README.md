@@ -46,3 +46,4 @@ Implemented macro level analysis of all the questions of survey using only Heatm
 ## Dashboard
 [![install package][22]](https://app.powerbi.com/view?r=eyJrIjoiYzk4MzdkNTItZmUxYS00ZjFmLWFjYjUtMWY5MzQxM2Q0YjU1IiwidCI6IjU3OGQ5ZjNlLTlkMTItNDBiMi1hNjJlLWI3NzdiZGYyNTVhMiJ9)
 
+[![Dashboard](https://github.com/asksawant/kaggle-survey-2022/blob/main/power-bi-dashboard/assets/dashboard%20new%20gif.gif)](https://app.powerbi.com/view?r=eyJrIjoiYzk4MzdkNTItZmUxYS00ZjFmLWFjYjUtMWY5MzQxM2Q0YjU1IiwidCI6IjU3OGQ5ZjNlLTlkMTItNDBiMi1hNjJlLWI3NzdiZGYyNTVhMiJ9)
