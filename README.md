@@ -38,7 +38,9 @@
       - Which products/services/platforms etc did the respondent mention together (by creating an occurrence matrix)
       - Checking the distribution using heatmap.
       
-Implemented macro level analysis of all the questions of survey using only Heatmaps.<br>
+Implemented macro level analysis of all the questions of survey using only Heatmaps.
+<br>
+
 [![use template][23]](https://www.kaggle.com/code/asksawant/macro-analysis-of-kaggle-survey-2022-using-heatmap)
 
 ## Dashboard
