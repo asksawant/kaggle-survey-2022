@@ -6,6 +6,9 @@
 [22]: https://custom-icon-badges.demolab.com/badge/-Check%20Dashboard-gold?style=for-the-badge&logo=package&logoColor=black
 [23]: https://custom-icon-badges.demolab.com/badge/-EDA%20Notebook-teal?style=for-the-badge&logo=repo-template&logoColor=white
 
+[![Dashboard](https://github.com/asksawant/kaggle-survey-2022/blob/main/power-bi-dashboard/assets/dashboard%20new%20gif.gif)](https://app.powerbi.com/view?r=eyJrIjoiYzk4MzdkNTItZmUxYS00ZjFmLWFjYjUtMWY5MzQxM2Q0YjU1IiwidCI6IjU3OGQ5ZjNlLTlkMTItNDBiMi1hNjJlLWI3NzdiZGYyNTVhMiJ9)
+
+
 ## Objective
 - Macro level data analysis process which is reproducible every year to analyze and derive insights from the survey.
 - Dashboard which will allow stakeholders to understand the impact, priorities or concerns of a group of DS/ML practitioners.
@@ -45,5 +48,3 @@ Implemented macro level analysis of all the questions of survey using only Heatm
 
 ## Dashboard
 [![install package][22]](https://app.powerbi.com/view?r=eyJrIjoiYzk4MzdkNTItZmUxYS00ZjFmLWFjYjUtMWY5MzQxM2Q0YjU1IiwidCI6IjU3OGQ5ZjNlLTlkMTItNDBiMi1hNjJlLWI3NzdiZGYyNTVhMiJ9)
-
-[![Dashboard](https://github.com/asksawant/kaggle-survey-2022/blob/main/power-bi-dashboard/assets/dashboard%20new%20gif.gif)](https://app.powerbi.com/view?r=eyJrIjoiYzk4MzdkNTItZmUxYS00ZjFmLWFjYjUtMWY5MzQxM2Q0YjU1IiwidCI6IjU3OGQ5ZjNlLTlkMTItNDBiMi1hNjJlLWI3NzdiZGYyNTVhMiJ9)
